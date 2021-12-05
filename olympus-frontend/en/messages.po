@@ -521,11 +521,11 @@ msgstr "Max You Can Buy"
 msgid "My grandpa's deck has no pathetic cards, Kaiba"
 msgstr "My grandpa's deck has no pathetic cards, Kaiba"
 
-#: src/views/Stake/Stake.tsx:445
+#: src/views/Stake/Stake.tsx:464
 msgid "Next Reward Amount"
 msgstr "Next Reward Amount"
 
-#: src/views/Stake/Stake.tsx:460
+#: src/views/Stake/Stake.tsx:479
 msgid "Next Reward Yield"
 msgstr "Next Reward Yield"
 
@@ -648,7 +648,7 @@ msgstr "Purchased"
 msgid "ROI"
 msgstr "ROI"
 
-#: src/views/Stake/Stake.tsx:469
+#: src/views/Stake/Stake.tsx:488
 msgid "ROI (5-Day Rate)"
 msgstr "ROI (5-Day Rate)"
 
@@ -748,6 +748,10 @@ msgstr "Stake {OHM_TICKER}"
 #: src/views/Stake/Stake.tsx:419
 msgid "Staked Balance"
 msgstr "Staked Balance"
+
+#: src/views/Stake/Stake.tsx:433
+msgid "Staked Balance Value ($)"
+msgstr "Staked Balance Value ($)"
 
 #: src/views/Stake/Stake.tsx:444
 #~ msgid "Staked Balance in Fuse"

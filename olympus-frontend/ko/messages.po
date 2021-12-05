@@ -505,11 +505,11 @@ msgstr "구입 가능한 최대"
 msgid "My grandpa's deck has no pathetic cards, Kaiba"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:445
+#: src/views/Stake/Stake.tsx:464
 msgid "Next Reward Amount"
 msgstr "다음 보상 수량"
 
-#: src/views/Stake/Stake.tsx:460
+#: src/views/Stake/Stake.tsx:479
 msgid "Next Reward Yield"
 msgstr "다음 보상 이자"
 
@@ -632,7 +632,7 @@ msgstr "구입량"
 msgid "ROI"
 msgstr "ROI(수익률)"
 
-#: src/views/Stake/Stake.tsx:469
+#: src/views/Stake/Stake.tsx:488
 msgid "ROI (5-Day Rate)"
 msgstr "ROI (5일 기준 수익)"
 
@@ -727,6 +727,10 @@ msgstr "{OHM_TICKER} 스테이크"
 #: src/views/Stake/Stake.tsx:419
 msgid "Staked Balance"
 msgstr "스테이크 된 잔고"
+
+#: src/views/Stake/Stake.tsx:433
+msgid "Staked Balance Value ($)"
+msgstr ""
 
 #: src/views/Stake/Stake.tsx:444
 #~ msgid "Staked Balance in Fuse"

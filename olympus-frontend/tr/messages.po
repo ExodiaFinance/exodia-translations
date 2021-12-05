@@ -497,11 +497,11 @@ msgstr "Satın alabileceğiniz maksimum miktar"
 msgid "My grandpa's deck has no pathetic cards, Kaiba"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:445
+#: src/views/Stake/Stake.tsx:464
 msgid "Next Reward Amount"
 msgstr "Sıradaki Faiz Miktarı"
 
-#: src/views/Stake/Stake.tsx:460
+#: src/views/Stake/Stake.tsx:479
 msgid "Next Reward Yield"
 msgstr "Sıradaki Faiz Yüzdesi"
 
@@ -616,7 +616,7 @@ msgstr "Satın alınan Miktar"
 msgid "ROI"
 msgstr "Getiri"
 
-#: src/views/Stake/Stake.tsx:469
+#: src/views/Stake/Stake.tsx:488
 msgid "ROI (5-Day Rate)"
 msgstr "5 Günlük Getiri Oranı"
 
@@ -710,6 +710,10 @@ msgstr "OHM yatır"
 
 #: src/views/Stake/Stake.tsx:419
 msgid "Staked Balance"
+msgstr ""
+
+#: src/views/Stake/Stake.tsx:433
+msgid "Staked Balance Value ($)"
 msgstr ""
 
 #: src/views/Stake/Stake.tsx:444
