@@ -13,10 +13,6 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/views/Calc/CalcChart.tsx:24
-#~ msgid "\"Your projected USD balance over time. Price increases/decreases by the same percentage each day to finally reach the target price."
-#~ msgstr ""
-
 #: src/views/33Together/PoolInfo.jsx:67
 msgid "1 in {0}"
 msgstr "{0}de 1"
@@ -66,12 +62,12 @@ msgstr ""
 #~ msgid "Any asset"
 #~ msgstr ""
 
-#: src/views/33Together/PoolDeposit.jsx:174
-#: src/views/Stake/Stake.tsx:373
-#: src/views/Stake/Stake.tsx:405
-#: src/views/Zap/ZapStakeAction.jsx:395
-#~ msgid "Approve"
-#~ msgstr "Onayla"
+#: src/views/33Together/PoolDeposit.jsx:180
+#: src/views/Bond/BondPurchase.jsx:214
+#: src/views/Stake/Stake.tsx:348
+#: src/views/Stake/Stake.tsx:389
+msgid "Approve"
+msgstr "Onayla"
 
 #: src/views/Zap/ZapStakeAction.jsx:388
 #~ msgid "Approved"
@@ -107,6 +103,7 @@ msgstr "Ödül süresi sonra erdi, dağıtımı tamamlamak için Pool Together'�
 #~ msgstr "Bakiye"
 
 #: src/components/Sidebar/NavContent.jsx:109
+#: src/views/Bond/BondPurchase.jsx:199
 #: src/views/ChooseBond/ChooseBond.tsx:72
 #: src/views/ChooseBond/ChooseBond.tsx:118
 #: src/views/ChooseBond/ClaimBonds.jsx:76
@@ -184,26 +181,27 @@ msgstr "Alıcı adresi seçiniz. Varsayılan olarak, bu şu an bağlı olan adre
 #~ msgid "Circulating Supply (total)"
 #~ msgstr "Dolaşımdaki Arz (Toplam)"
 
-#: src/views/Bond/BondRedeem.jsx:71
-#: src/views/ChooseBond/ClaimRow.jsx:133
-#~ msgid "Claim"
-#~ msgstr "Çek"
-
-#: src/views/ChooseBond/ClaimBonds.jsx:118
-#~ msgid "Claim all"
-#~ msgstr "Hepsini çek"
-
-#: src/views/ChooseBond/ClaimBonds.jsx:135
-#~ msgid "Claim all and Stake"
-#~ msgstr "Hepsini çek ve yatır"
-
-#: src/views/Bond/BondRedeem.jsx:87
-#~ msgid "Claim and Autostake"
-#~ msgstr "Çek ve Otomatik yatır"
-
+#: src/views/Bond/BondRedeem.jsx:76
+#: src/views/ChooseBond/ClaimRow.jsx:72
 #: src/views/ChooseBond/ClaimRow.jsx:141
-#~ msgid "Claim and Stake"
-#~ msgstr "Çek ve yatır"
+msgid "Claim"
+msgstr "Çek"
+
+#: src/views/ChooseBond/ClaimBonds.jsx:122
+msgid "Claim all"
+msgstr "Hepsini çek"
+
+#: src/views/ChooseBond/ClaimBonds.jsx:140
+msgid "Claim all and Stake"
+msgstr "Hepsini çek ve yatır"
+
+#: src/views/Bond/BondRedeem.jsx:96
+msgid "Claim and Autostake"
+msgstr "Çek ve Otomatik yatır"
+
+#: src/views/ChooseBond/ClaimRow.jsx:150
+msgid "Claim and Stake"
+msgstr "Çek ve yatır"
 
 #: src/views/ChooseBond/ClaimBonds.jsx:79
 msgid "Claimable"
@@ -225,7 +223,7 @@ msgstr "Cüzdanınızı bağlayın"
 
 #: src/views/Stake/Stake.tsx:239
 msgid "Connect your wallet to stake EXOD"
-msgstr ""
+msgstr "EXOD yatırmak için Cüzdanınızı bağlayın"
 
 #: src/views/Stake/Stake.tsx:271
 #~ msgid "Connect your wallet to stake OHM"
@@ -295,9 +293,9 @@ msgstr "Borç oranı"
 msgid "Deposit"
 msgstr "Yatır"
 
-#: src/views/33Together/PoolDeposit.jsx:163
-#~ msgid "Deposit sOHM"
-#~ msgstr "sOHM Yatır"
+#: src/views/33Together/PoolDeposit.jsx:166
+msgid "Deposit sOHM"
+msgstr "sOHM Yatır"
 
 #: src/views/33Together/PoolDeposit.jsx:101
 msgid "Deposit sOHM to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sOHM is withdrawn."
@@ -708,6 +706,10 @@ msgstr "Yatır"
 #~ msgid "Stake in Crucible"
 #~ msgstr "Crucible'da yatır"
 
+#: src/views/Stake/Stake.tsx:330
+msgid "Stake {OHM_TICKER}"
+msgstr "OHM yatır"
+
 #: src/views/Stake/Stake.tsx:416
 msgid "Staked Balance"
 msgstr ""
@@ -818,6 +820,10 @@ msgstr "Çek"
 #~ msgid "Unstake OHM"
 #~ msgstr "OHM çek"
 
+#: src/views/Stake/Stake.tsx:371
+msgid "Unstake {OHM_TICKER}"
+msgstr ""
+
 #: src/views/Stake/Stake.tsx:401
 msgid "Unstaked Balance"
 msgstr ""
@@ -856,9 +862,21 @@ msgstr "Kazanan kullanıcı sayısı"
 msgid "Withdraw"
 msgstr "Çek"
 
+#: src/views/33Together/PoolWithdraw.jsx:157
+#~ msgid "Withdraw Early & pa {exitFee} sEXOD"
+#~ msgstr ""
+
 #: src/views/33Together/PoolWithdraw.jsx:154
 #~ msgid "Withdraw Early & pay"
 #~ msgstr "Erken çek ve ücret öde"
+
+#: src/views/33Together/PoolWithdraw.jsx:157
+msgid "Withdraw Early & pay {exitFee} sEXOD"
+msgstr ""
+
+#: src/views/33Together/PoolWithdraw.jsx:163
+msgid "Withdraw sEXOD"
+msgstr ""
 
 #: src/views/33Together/PoolWithdraw.jsx:155
 #~ msgid "Withdraw sOHM"
@@ -1032,6 +1050,10 @@ msgstr "saat"
 #: src/views/33Together/PoolPrize.jsx:154
 msgid "min"
 msgstr "dk."
+
+#: src/views/33Together/PoolDeposit.jsx:180
+#~ msgid "pprov"
+#~ msgstr ""
 
 #: src/views/Calc/Calc.tsx:114
 msgid "sEXOD Amount"

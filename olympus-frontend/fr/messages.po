@@ -66,12 +66,12 @@ msgstr ""
 #~ msgid "Any asset"
 #~ msgstr "N'importe quel actif"
 
-#: src/views/33Together/PoolDeposit.jsx:175
-#: src/views/Stake/Stake.tsx:378
-#: src/views/Stake/Stake.tsx:410
-#: src/views/Zap/ZapStakeAction.jsx:395
-#~ msgid "Approve"
-#~ msgstr "Approuver"
+#: src/views/33Together/PoolDeposit.jsx:180
+#: src/views/Bond/BondPurchase.jsx:214
+#: src/views/Stake/Stake.tsx:348
+#: src/views/Stake/Stake.tsx:389
+msgid "Approve"
+msgstr "Approuver"
 
 #: src/views/Zap/ZapStakeAction.jsx:388
 #~ msgid "Approved"
@@ -111,6 +111,7 @@ msgstr "La période de récompense est terminée. Vous pouvez visiter Pool Toget
 #~ msgstr "Solde"
 
 #: src/components/Sidebar/NavContent.jsx:109
+#: src/views/Bond/BondPurchase.jsx:199
 #: src/views/ChooseBond/ChooseBond.tsx:72
 #: src/views/ChooseBond/ChooseBond.tsx:118
 #: src/views/ChooseBond/ClaimBonds.jsx:76
@@ -180,26 +181,27 @@ msgstr "Choisissez l'addresse de reception. Par défaut il s'agit de l'addresse 
 #~ msgid "Circulating Supply (total)"
 #~ msgstr "Jetons en circulation (total)"
 
-#: src/views/Bond/BondRedeem.jsx:72
-#: src/views/ChooseBond/ClaimRow.jsx:133
-#~ msgid "Claim"
-#~ msgstr "Retirer"
-
-#: src/views/ChooseBond/ClaimBonds.jsx:118
-#~ msgid "Claim all"
-#~ msgstr "Tout retirer"
-
-#: src/views/ChooseBond/ClaimBonds.jsx:135
-#~ msgid "Claim all and Stake"
-#~ msgstr "Tout retirer et dépôser"
-
-#: src/views/Bond/BondRedeem.jsx:88
-#~ msgid "Claim and Autostake"
-#~ msgstr "Retirer et mettre en dépôt"
-
+#: src/views/Bond/BondRedeem.jsx:76
+#: src/views/ChooseBond/ClaimRow.jsx:72
 #: src/views/ChooseBond/ClaimRow.jsx:141
-#~ msgid "Claim and Stake"
-#~ msgstr "Retirer et mettre en dépôt"
+msgid "Claim"
+msgstr "Retirer"
+
+#: src/views/ChooseBond/ClaimBonds.jsx:122
+msgid "Claim all"
+msgstr "Tout retirer"
+
+#: src/views/ChooseBond/ClaimBonds.jsx:140
+msgid "Claim all and Stake"
+msgstr "Tout retirer et dépôser"
+
+#: src/views/Bond/BondRedeem.jsx:96
+msgid "Claim and Autostake"
+msgstr "Retirer et mettre en dépôt"
+
+#: src/views/ChooseBond/ClaimRow.jsx:150
+msgid "Claim and Stake"
+msgstr "Retirer et mettre en dépôt"
 
 #: src/views/ChooseBond/ClaimBonds.jsx:79
 msgid "Claimable"
@@ -291,9 +293,9 @@ msgstr "Taux d'endettement"
 msgid "Deposit"
 msgstr "Déposer"
 
-#: src/views/33Together/PoolDeposit.jsx:164
-#~ msgid "Deposit sOHM"
-#~ msgstr "Déposer sOHM"
+#: src/views/33Together/PoolDeposit.jsx:166
+msgid "Deposit sOHM"
+msgstr "Déposer sOHM"
 
 #: src/views/33Together/PoolDeposit.jsx:101
 msgid "Deposit sOHM to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sOHM is withdrawn."
@@ -558,7 +560,7 @@ msgstr "Récompenses en attente"
 #: src/views/Stake/Stake.tsx:275
 #: src/views/Stake/Stake.tsx:282
 msgid "Please approve Exodia to use your"
-msgstr ""
+msgstr "Veuillez approuver Exodia pour utiliser vos"
 
 #: src/views/Bond/BondPurchase.jsx:150
 #: src/views/Stake/Stake.tsx:313
@@ -717,6 +719,10 @@ msgstr "Dépôts (Staking)"
 #~ msgid "Stake on Crucible"
 #~ msgstr "Déposer sur Crucible"
 
+#: src/views/Stake/Stake.tsx:330
+msgid "Stake {OHM_TICKER}"
+msgstr "Déposer des {OHM_TICKER}"
+
 #: src/views/Stake/Stake.tsx:416
 msgid "Staked Balance"
 msgstr "Montant "
@@ -843,6 +849,10 @@ msgstr "Retirer"
 #~ msgid "Unstake OHM"
 #~ msgstr "Retirer vos OHM"
 
+#: src/views/Stake/Stake.tsx:371
+msgid "Unstake {OHM_TICKER}"
+msgstr "Retirer vos {OHM_TICKER}"
+
 #: src/views/Stake/Stake.tsx:401
 msgid "Unstaked Balance"
 msgstr "Solde dans votre portefeuille"
@@ -884,6 +894,14 @@ msgstr "Retirer"
 #: src/views/33Together/PoolWithdraw.jsx:155
 #~ msgid "Withdraw Early & pay"
 #~ msgstr "Retirer prématurément & payer"
+
+#: src/views/33Together/PoolWithdraw.jsx:157
+msgid "Withdraw Early & pay {exitFee} sEXOD"
+msgstr "Retirer prématurément & payer {exitFee} sEXOD"
+
+#: src/views/33Together/PoolWithdraw.jsx:163
+msgid "Withdraw sEXOD"
+msgstr "Retirer sOHM"
 
 #: src/views/33Together/PoolWithdraw.jsx:156
 #~ msgid "Withdraw sOHM"
@@ -1089,10 +1107,6 @@ msgstr ""
 #: src/components/RebaseTimer/RebaseTimer.jsx:77
 msgid "to next rebase"
 msgstr "jusqu'au prochain changement de base"
-
-#: src/views/Calc/CalcChart.tsx:53
-#~ msgid "{mode} over time"
-#~ msgstr "Valeur en {mode} au fil du temps"
 
 #: src/views/Calc/CalcChart.tsx:73
 msgid "{profits} after {calcDays} days"

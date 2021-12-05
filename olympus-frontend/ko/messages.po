@@ -13,10 +13,6 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/views/Calc/CalcChart.tsx:24
-#~ msgid "\"Your projected USD balance over time. Price increases/decreases by the same percentage each day to finally reach the target price."
-#~ msgstr ""
-
 #: src/views/33Together/PoolInfo.jsx:67
 msgid "1 in {0}"
 msgstr "{0} 분의 1"
@@ -74,12 +70,12 @@ msgstr ""
 #~ msgid "Any asset"
 #~ msgstr ""
 
-#: src/views/33Together/PoolDeposit.jsx:174
-#: src/views/Stake/Stake.tsx:373
-#: src/views/Stake/Stake.tsx:405
-#: src/views/Zap/ZapStakeAction.jsx:395
-#~ msgid "Approve"
-#~ msgstr "기능 승인"
+#: src/views/33Together/PoolDeposit.jsx:180
+#: src/views/Bond/BondPurchase.jsx:214
+#: src/views/Stake/Stake.tsx:348
+#: src/views/Stake/Stake.tsx:389
+msgid "Approve"
+msgstr "기능 승인"
 
 #: src/views/Zap/ZapStakeAction.jsx:388
 #~ msgid "Approved"
@@ -115,6 +111,7 @@ msgstr "어워드 기간이 끝났습니다. 이제 풀의 UI를 통해 배분�
 #~ msgstr "잔고"
 
 #: src/components/Sidebar/NavContent.jsx:109
+#: src/views/Bond/BondPurchase.jsx:199
 #: src/views/ChooseBond/ChooseBond.tsx:72
 #: src/views/ChooseBond/ChooseBond.tsx:118
 #: src/views/ChooseBond/ClaimBonds.jsx:76
@@ -192,26 +189,27 @@ msgstr "수신자 주소를 지정하세요. 기본 값으로 설정하면 현�
 #~ msgid "Circulating Supply (total)"
 #~ msgstr "유통량(총)"
 
-#: src/views/Bond/BondRedeem.jsx:71
-#: src/views/ChooseBond/ClaimRow.jsx:133
-#~ msgid "Claim"
-#~ msgstr "청구"
-
-#: src/views/ChooseBond/ClaimBonds.jsx:118
-#~ msgid "Claim all"
-#~ msgstr "전부 청구"
-
-#: src/views/ChooseBond/ClaimBonds.jsx:135
-#~ msgid "Claim all and Stake"
-#~ msgstr "전부 청구하고 스테이크"
-
-#: src/views/Bond/BondRedeem.jsx:87
-#~ msgid "Claim and Autostake"
-#~ msgstr "청구하고 자동스테이크"
-
+#: src/views/Bond/BondRedeem.jsx:76
+#: src/views/ChooseBond/ClaimRow.jsx:72
 #: src/views/ChooseBond/ClaimRow.jsx:141
-#~ msgid "Claim and Stake"
-#~ msgstr "청구하고 스테이크"
+msgid "Claim"
+msgstr "청구"
+
+#: src/views/ChooseBond/ClaimBonds.jsx:122
+msgid "Claim all"
+msgstr "전부 청구"
+
+#: src/views/ChooseBond/ClaimBonds.jsx:140
+msgid "Claim all and Stake"
+msgstr "전부 청구하고 스테이크"
+
+#: src/views/Bond/BondRedeem.jsx:96
+msgid "Claim and Autostake"
+msgstr "청구하고 자동스테이크"
+
+#: src/views/ChooseBond/ClaimRow.jsx:150
+msgid "Claim and Stake"
+msgstr "청구하고 스테이크"
 
 #: src/views/ChooseBond/ClaimBonds.jsx:79
 msgid "Claimable"
@@ -233,7 +231,7 @@ msgstr "지갑 연결"
 
 #: src/views/Stake/Stake.tsx:239
 msgid "Connect your wallet to stake EXOD"
-msgstr ""
+msgstr "EXOD 스테이크를 위해 지갑 연결"
 
 #: src/views/Stake/Stake.tsx:271
 #~ msgid "Connect your wallet to stake OHM"
@@ -303,9 +301,9 @@ msgstr "부채 비율"
 msgid "Deposit"
 msgstr "예치"
 
-#: src/views/33Together/PoolDeposit.jsx:163
-#~ msgid "Deposit sOHM"
-#~ msgstr "sOHM 예치"
+#: src/views/33Together/PoolDeposit.jsx:166
+msgid "Deposit sOHM"
+msgstr "sOHM 예치"
 
 #: src/views/33Together/PoolDeposit.jsx:101
 msgid "Deposit sOHM to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sOHM is withdrawn."
@@ -570,7 +568,7 @@ msgstr "계류중인 보상"
 #: src/views/Stake/Stake.tsx:275
 #: src/views/Stake/Stake.tsx:282
 msgid "Please approve Exodia to use your"
-msgstr ""
+msgstr "Exodia를 승인해 주세요"
 
 #: src/views/Bond/BondPurchase.jsx:147
 #: src/views/Stake/Stake.tsx:308
@@ -724,6 +722,10 @@ msgstr "스테이크"
 #~ msgid "Stake in Crucible"
 #~ msgstr "Crucible에 스테이크"
 
+#: src/views/Stake/Stake.tsx:330
+msgid "Stake {OHM_TICKER}"
+msgstr "스테이킹 중인 {OHM_TICKER}"
+
 #: src/views/Stake/Stake.tsx:416
 msgid "Staked Balance"
 msgstr "스테이크 된 잔고"
@@ -838,6 +840,10 @@ msgstr "언스테이크"
 #~ msgid "Unstake OHM"
 #~ msgstr "OHM 언스테이크"
 
+#: src/views/Stake/Stake.tsx:371
+msgid "Unstake {OHM_TICKER}"
+msgstr "{OHM_TICKER} 언스테이킹"
+
 #: src/views/Stake/Stake.tsx:401
 msgid "Unstaked Balance"
 msgstr "언스테이크 된 잔고"
@@ -876,9 +882,21 @@ msgstr "우승자 / 수상 기간"
 msgid "Withdraw"
 msgstr "출금"
 
+#: src/views/33Together/PoolWithdraw.jsx:157
+#~ msgid "Withdraw Early & pa {exitFee} sEXOD"
+#~ msgstr ""
+
 #: src/views/33Together/PoolWithdraw.jsx:154
 #~ msgid "Withdraw Early & pay"
 #~ msgstr "초기 출금하고 지불하기"
+
+#: src/views/33Together/PoolWithdraw.jsx:157
+msgid "Withdraw Early & pay {exitFee} sEXOD"
+msgstr ""
+
+#: src/views/33Together/PoolWithdraw.jsx:163
+msgid "Withdraw sEXOD"
+msgstr "sEXOD 출금"
 
 #: src/views/33Together/PoolWithdraw.jsx:155
 #~ msgid "Withdraw sOHM"
@@ -1076,10 +1094,6 @@ msgstr ""
 #: src/components/RebaseTimer/RebaseTimer.jsx:77
 msgid "to next rebase"
 msgstr "다음 리베이스 까지"
-
-#: src/views/Calc/CalcChart.tsx:53
-#~ msgid "{mode} over time"
-#~ msgstr ""
 
 #: src/views/Calc/CalcChart.tsx:73
 msgid "{profits} after {calcDays} days"

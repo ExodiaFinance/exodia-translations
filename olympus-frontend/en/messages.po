@@ -13,10 +13,6 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/views/Calc/CalcChart.tsx:24
-#~ msgid "\"Your projected USD balance over time. Price increases/decreases by the same percentage each day to finally reach the target price."
-#~ msgstr "\"Your projected USD balance over time. Price increases/decreases by the same percentage each day to finally reach the target price."
-
 #: src/views/33Together/PoolInfo.jsx:67
 msgid "1 in {0}"
 msgstr "1 in {0}"
@@ -78,12 +74,12 @@ msgstr "Annual Percentage Yield, is the normalized representation of an interest
 #~ msgid "Any asset"
 #~ msgstr "Any asset"
 
-#: src/views/33Together/PoolDeposit.jsx:174
-#: src/views/Stake/Stake.tsx:373
-#: src/views/Stake/Stake.tsx:405
-#: src/views/Zap/ZapStakeAction.jsx:395
-#~ msgid "Approve"
-#~ msgstr "Approve"
+#: src/views/33Together/PoolDeposit.jsx:180
+#: src/views/Bond/BondPurchase.jsx:214
+#: src/views/Stake/Stake.tsx:348
+#: src/views/Stake/Stake.tsx:389
+msgid "Approve"
+msgstr "Approve"
 
 #: src/views/Zap/ZapStakeAction.jsx:388
 #~ msgid "Approved"
@@ -123,6 +119,7 @@ msgstr "Award period has finished, you can navigate to Pool Together's UI to com
 #~ msgstr "Balance"
 
 #: src/components/Sidebar/NavContent.jsx:109
+#: src/views/Bond/BondPurchase.jsx:199
 #: src/views/ChooseBond/ChooseBond.tsx:72
 #: src/views/ChooseBond/ChooseBond.tsx:118
 #: src/views/ChooseBond/ClaimBonds.jsx:76
@@ -204,26 +201,27 @@ msgstr "Choose recipient address. By default, this is your currently connected a
 #~ msgid "Circulating Supply (total)"
 #~ msgstr "Circulating Supply (total)"
 
-#: src/views/Bond/BondRedeem.jsx:71
-#: src/views/ChooseBond/ClaimRow.jsx:133
-#~ msgid "Claim"
-#~ msgstr "Claim"
-
-#: src/views/ChooseBond/ClaimBonds.jsx:118
-#~ msgid "Claim all"
-#~ msgstr "Claim all"
-
-#: src/views/ChooseBond/ClaimBonds.jsx:135
-#~ msgid "Claim all and Stake"
-#~ msgstr "Claim all and Stake"
-
-#: src/views/Bond/BondRedeem.jsx:87
-#~ msgid "Claim and Autostake"
-#~ msgstr "Claim and Autostake"
-
+#: src/views/Bond/BondRedeem.jsx:76
+#: src/views/ChooseBond/ClaimRow.jsx:72
 #: src/views/ChooseBond/ClaimRow.jsx:141
-#~ msgid "Claim and Stake"
-#~ msgstr "Claim and Stake"
+msgid "Claim"
+msgstr "Claim"
+
+#: src/views/ChooseBond/ClaimBonds.jsx:122
+msgid "Claim all"
+msgstr "Claim all"
+
+#: src/views/ChooseBond/ClaimBonds.jsx:140
+msgid "Claim all and Stake"
+msgstr "Claim all and Stake"
+
+#: src/views/Bond/BondRedeem.jsx:96
+msgid "Claim and Autostake"
+msgstr "Claim and Autostake"
+
+#: src/views/ChooseBond/ClaimRow.jsx:150
+msgid "Claim and Stake"
+msgstr "Claim and Stake"
 
 #: src/views/ChooseBond/ClaimBonds.jsx:79
 msgid "Claimable"
@@ -319,9 +317,9 @@ msgstr "Debt Ratio"
 msgid "Deposit"
 msgstr "Deposit"
 
-#: src/views/33Together/PoolDeposit.jsx:163
-#~ msgid "Deposit sOHM"
-#~ msgstr "Deposit sOHM"
+#: src/views/33Together/PoolDeposit.jsx:166
+msgid "Deposit sOHM"
+msgstr "Deposit sOHM"
 
 #: src/views/33Together/PoolDeposit.jsx:101
 msgid "Deposit sOHM to win! Once deposited, you will receive a corresponding amount of 33T and be entered to win until your sOHM is withdrawn."
@@ -745,6 +743,10 @@ msgstr "Stake"
 #~ msgid "Stake on Crucible"
 #~ msgstr "Stake on Crucible"
 
+#: src/views/Stake/Stake.tsx:330
+msgid "Stake {OHM_TICKER}"
+msgstr "Stake {OHM_TICKER}"
+
 #: src/views/Stake/Stake.tsx:416
 msgid "Staked Balance"
 msgstr "Staked Balance"
@@ -871,6 +873,10 @@ msgstr "Unstake"
 #~ msgid "Unstake OHM"
 #~ msgstr "Unstake OHM"
 
+#: src/views/Stake/Stake.tsx:371
+msgid "Unstake {OHM_TICKER}"
+msgstr "Unstake {OHM_TICKER}"
+
 #: src/views/Stake/Stake.tsx:401
 msgid "Unstaked Balance"
 msgstr "Unstaked Balance"
@@ -909,6 +915,10 @@ msgstr "Winners / prize period"
 msgid "Withdraw"
 msgstr "Withdraw"
 
+#: src/views/33Together/PoolWithdraw.jsx:157
+#~ msgid "Withdraw Early & pa {exitFee} sEXOD"
+#~ msgstr "Withdraw Early & pa {exitFee} sEXOD"
+
 #: src/views/33Together/PoolWithdraw.jsx:154
 #~ msgid "Withdraw Early & pay"
 #~ msgstr "Withdraw Early & pay"
@@ -916,6 +926,14 @@ msgstr "Withdraw"
 #: src/views/33Together/PoolWithdraw.jsx:147
 #~ msgid "Withdraw Early & pay t"
 #~ msgstr "Withdraw Early & pay t"
+
+#: src/views/33Together/PoolWithdraw.jsx:157
+msgid "Withdraw Early & pay {exitFee} sEXOD"
+msgstr "Withdraw Early & pay {exitFee} sEXOD"
+
+#: src/views/33Together/PoolWithdraw.jsx:163
+msgid "Withdraw sEXOD"
+msgstr "Withdraw sEXOD"
 
 #: src/views/33Together/PoolWithdraw.jsx:155
 #~ msgid "Withdraw sOHM"
@@ -1097,6 +1115,10 @@ msgstr "hrs"
 #: src/views/33Together/PoolPrize.jsx:154
 msgid "min"
 msgstr "min"
+
+#: src/views/33Together/PoolDeposit.jsx:180
+#~ msgid "pprov"
+#~ msgstr "pprov"
 
 #: src/views/Calc/Calc.tsx:114
 msgid "sEXOD Amount"
