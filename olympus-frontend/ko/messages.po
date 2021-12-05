@@ -557,12 +557,10 @@ msgstr "계류중"
 msgid "Pending Rewards"
 msgstr "계류중인 보상"
 
-#: src/slices/PendingTxnsSlice.ts:41
-#: src/slices/PendingTxnsSlice.ts:45
-#: src/views/Zap/ZapStakeAction.jsx:363
-#: src/views/Zap/ZapStakeAction.jsx:395
-#~ msgid "Pending..."
-#~ msgstr "계류중..."
+#: src/components/TxnButtonText.jsx:15
+#: src/components/TxnButtonText.jsx:33
+msgid "Pending..."
+msgstr "계류중..."
 
 #: src/views/Bond/BondPurchase.jsx:150
 #: src/views/Stake/Stake.tsx:275
@@ -724,7 +722,7 @@ msgstr "스테이크"
 
 #: src/views/Stake/Stake.tsx:330
 msgid "Stake {OHM_TICKER}"
-msgstr "스테이킹 중인 {OHM_TICKER}"
+msgstr "{OHM_TICKER} 스테이크"
 
 #: src/views/Stake/Stake.tsx:416
 msgid "Staked Balance"

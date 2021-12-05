@@ -541,12 +541,10 @@ msgstr "Kalan"
 msgid "Pending Rewards"
 msgstr "Kalan miktar"
 
-#: src/slices/PendingTxnsSlice.ts:41
-#: src/slices/PendingTxnsSlice.ts:45
-#: src/views/Zap/ZapStakeAction.jsx:363
-#: src/views/Zap/ZapStakeAction.jsx:395
-#~ msgid "Pending..."
-#~ msgstr "İşleniyor..."
+#: src/components/TxnButtonText.jsx:15
+#: src/components/TxnButtonText.jsx:33
+msgid "Pending..."
+msgstr "İşleniyor..."
 
 #: src/views/Bond/BondPurchase.jsx:150
 #: src/views/Stake/Stake.tsx:275
