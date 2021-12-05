@@ -29,7 +29,7 @@ msgstr "3, 3 Together"
 msgid "ADD TOKEN TO WALLET"
 msgstr "Token'ları Cüzdanınıza Ekleyin"
 
-#: src/views/Stake/Stake.tsx:176
+#: src/views/Stake/Stake.tsx:179
 #: src/views/TreasuryDashboard/treasuryData.ts:175
 msgid "APY"
 msgstr "YFG"
@@ -64,8 +64,8 @@ msgstr ""
 
 #: src/views/33Together/PoolDeposit.jsx:180
 #: src/views/Bond/BondPurchase.jsx:214
-#: src/views/Stake/Stake.tsx:348
-#: src/views/Stake/Stake.tsx:389
+#: src/views/Stake/Stake.tsx:351
+#: src/views/Stake/Stake.tsx:392
 msgid "Approve"
 msgstr "Onayla"
 
@@ -217,11 +217,11 @@ msgstr "Mevcut Çekilebilir Bakiye"
 
 #: src/components/ConnectButton.jsx:9
 #: src/components/TopBar/ConnectMenu.jsx:19
-#: src/views/Stake/Stake.tsx:139
+#: src/views/Stake/Stake.tsx:142
 msgid "Connect Wallet"
 msgstr "Cüzdanınızı bağlayın"
 
-#: src/views/Stake/Stake.tsx:239
+#: src/views/Stake/Stake.tsx:242
 msgid "Connect your wallet to stake EXOD"
 msgstr "EXOD yatırmak için Cüzdanınızı bağlayın"
 
@@ -239,7 +239,7 @@ msgstr "EXOD yatırmak için Cüzdanınızı bağlayın"
 msgid "Current"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:215
+#: src/views/Stake/Stake.tsx:218
 msgid "Current Index"
 msgstr "Güncel Katsayı"
 
@@ -401,11 +401,11 @@ msgstr ""
 msgid "First time bonding"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:273
+#: src/views/Stake/Stake.tsx:276
 msgid "First time staking"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:280
+#: src/views/Stake/Stake.tsx:283
 msgid "First time unstaking"
 msgstr ""
 
@@ -497,11 +497,11 @@ msgstr "Satın alabileceğiniz maksimum miktar"
 msgid "My grandpa's deck has no pathetic cards, Kaiba"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:442
+#: src/views/Stake/Stake.tsx:445
 msgid "Next Reward Amount"
 msgstr "Sıradaki Faiz Miktarı"
 
-#: src/views/Stake/Stake.tsx:457
+#: src/views/Stake/Stake.tsx:460
 msgid "Next Reward Yield"
 msgstr "Sıradaki Faiz Yüzdesi"
 
@@ -547,8 +547,8 @@ msgid "Pending..."
 msgstr "İşleniyor..."
 
 #: src/views/Bond/BondPurchase.jsx:150
-#: src/views/Stake/Stake.tsx:275
-#: src/views/Stake/Stake.tsx:282
+#: src/views/Stake/Stake.tsx:278
+#: src/views/Stake/Stake.tsx:285
 msgid "Please approve Exodia to use your"
 msgstr ""
 
@@ -565,8 +565,8 @@ msgstr "Lütfen geçerli bir değer giriniz."
 #: src/views/33Together/PoolDeposit.jsx:67
 #: src/views/33Together/PoolWithdraw.jsx:60
 #: src/views/Bond/BondPurchase.jsx:53
-#: src/views/Stake/Stake.tsx:108
-#: src/views/Stake/Stake.tsx:108
+#: src/views/Stake/Stake.tsx:111
+#: src/views/Stake/Stake.tsx:111
 msgid "Please enter a value!"
 msgstr "Lütfen bir miktar giriniz."
 
@@ -616,7 +616,7 @@ msgstr "Satın alınan Miktar"
 msgid "ROI"
 msgstr "Getiri"
 
-#: src/views/Stake/Stake.tsx:466
+#: src/views/Stake/Stake.tsx:469
 msgid "ROI (5-Day Rate)"
 msgstr "5 Günlük Getiri Oranı"
 
@@ -704,11 +704,11 @@ msgstr "Yatır"
 #~ msgid "Stake in Crucible"
 #~ msgstr "Crucible'da yatır"
 
-#: src/views/Stake/Stake.tsx:330
+#: src/views/Stake/Stake.tsx:333
 msgid "Stake {OHM_TICKER}"
 msgstr "OHM yatır"
 
-#: src/views/Stake/Stake.tsx:416
+#: src/views/Stake/Stake.tsx:419
 msgid "Staked Balance"
 msgstr ""
 
@@ -748,7 +748,8 @@ msgstr "Arz (Dolaşımdaki/Toplam)"
 #~ msgid "Swap into sOHM"
 #~ msgstr ""
 
-#: src/views/Calc/CalcChart.tsx:68
+#: src/components/Chart/PersonalExodChart.tsx:70
+#: src/views/Calc/CalcChart.tsx:62
 msgid "Switch to"
 msgstr ""
 
@@ -781,7 +782,7 @@ msgstr "Toplam yatırılan miktar"
 msgid "Total Sponsorship"
 msgstr "Toplam Sponsor Miktarı"
 
-#: src/views/Stake/Stake.tsx:193
+#: src/views/Stake/Stake.tsx:196
 #: src/views/TreasuryDashboard/treasuryData.ts:171
 msgid "Total Value Deposited"
 msgstr "Yatırılmış Toplam Değer"
@@ -806,7 +807,7 @@ msgstr "Fiyat slipaj yüzdesinden daha fazla değişirse işlem iptal olabilir"
 msgid "Treasury Balance"
 msgstr "Hazine Bakiyesi"
 
-#: src/views/Stake/Stake.tsx:264
+#: src/views/Stake/Stake.tsx:267
 msgid "Unstake"
 msgstr "Çek"
 
@@ -818,11 +819,11 @@ msgstr "Çek"
 #~ msgid "Unstake OHM"
 #~ msgstr "OHM çek"
 
-#: src/views/Stake/Stake.tsx:371
+#: src/views/Stake/Stake.tsx:374
 msgid "Unstake {OHM_TICKER}"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:401
+#: src/views/Stake/Stake.tsx:404
 msgid "Unstaked Balance"
 msgstr ""
 
@@ -934,8 +935,8 @@ msgstr ""
 #~ msgid "You cannot stake more than your OHM balance."
 #~ msgstr "OHM bakiyenizden daha fazla olan bir değeri yatıramazsınız."
 
-#: src/views/Stake/Stake.tsx:114
-#: src/views/Stake/Stake.tsx:114
+#: src/views/Stake/Stake.tsx:117
+#: src/views/Stake/Stake.tsx:117
 msgid "You cannot stake more than your {OHM_TICKER} balance."
 msgstr "{OHM_TICKER} bakiyenizden daha fazla olan bir değeri yatıramazsınız."
 
@@ -944,8 +945,8 @@ msgstr "{OHM_TICKER} bakiyenizden daha fazla olan bir değeri yatıramazsınız.
 #~ msgid "You cannot unstake more than your sOHM balance."
 #~ msgstr "sOHM bakiyenizden daha fazla olan bir değeri çekemezsiniz."
 
-#: src/views/Stake/Stake.tsx:118
-#: src/views/Stake/Stake.tsx:118
+#: src/views/Stake/Stake.tsx:121
+#: src/views/Stake/Stake.tsx:121
 msgid "You cannot unstake more than your {sOHM_TICKER} balance."
 msgstr "{sOHM_TICKER} bakiyenizden daha fazla olan bir değeri çekemezsiniz."
 
@@ -981,10 +982,12 @@ msgstr "Kazanma şansınız"
 msgid "Your pool deposits"
 msgstr "Havuza yatırılmış bakiyeniz"
 
+#: src/components/Chart/PersonalExodChart.tsx:26
 #: src/views/Calc/CalcChart.tsx:25
 msgid "Your projected USD balance over time. Price increases/decreases by the same percentage each day to finally reach the target price."
 msgstr ""
 
+#: src/components/Chart/PersonalExodChart.tsx:20
 #: src/views/Calc/CalcChart.tsx:19
 msgid "Your projected staked EXOD balance over time. You can use this to estimate the growth of your sEXOD balance."
 msgstr ""
@@ -1025,7 +1028,7 @@ msgid "do_bond"
 msgstr ""
 
 #. The action of staking (verb)
-#: src/views/Stake/Stake.tsx:258
+#: src/views/Stake/Stake.tsx:261
 msgid "do_stake"
 msgstr ""
 
@@ -1033,17 +1036,21 @@ msgstr ""
 msgid "for bonding"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:276
+#: src/views/Stake/Stake.tsx:279
 msgid "for staking"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:283
+#: src/views/Stake/Stake.tsx:286
 msgid "for unstaking"
 msgstr ""
 
 #: src/views/33Together/PoolPrize.jsx:147
 msgid "hrs"
 msgstr "saat"
+
+#: src/components/Chart/PersonalExodChart.tsx:82
+msgid "if price remains stable"
+msgstr ""
 
 #: src/views/33Together/PoolPrize.jsx:154
 msgid "min"
@@ -1081,6 +1088,7 @@ msgstr "içerisinde sonraki faiz"
 #~ msgid "{mode} over time"
 #~ msgstr ""
 
-#: src/views/Calc/CalcChart.tsx:73
+#: src/components/Chart/PersonalExodChart.tsx:76
+#: src/views/Calc/CalcChart.tsx:67
 msgid "{profits} after {calcDays} days"
 msgstr ""

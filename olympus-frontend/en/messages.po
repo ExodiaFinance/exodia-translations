@@ -41,7 +41,7 @@ msgstr "ADD TOKEN TO WALLET"
 #~ msgid "APR"
 #~ msgstr "APR"
 
-#: src/views/Stake/Stake.tsx:176
+#: src/views/Stake/Stake.tsx:179
 #: src/views/TreasuryDashboard/treasuryData.ts:175
 msgid "APY"
 msgstr "APY"
@@ -76,8 +76,8 @@ msgstr "Annual Percentage Yield, is the normalized representation of an interest
 
 #: src/views/33Together/PoolDeposit.jsx:180
 #: src/views/Bond/BondPurchase.jsx:214
-#: src/views/Stake/Stake.tsx:348
-#: src/views/Stake/Stake.tsx:389
+#: src/views/Stake/Stake.tsx:351
+#: src/views/Stake/Stake.tsx:392
 msgid "Approve"
 msgstr "Approve"
 
@@ -241,11 +241,11 @@ msgstr "Claimable Rewards"
 
 #: src/components/ConnectButton.jsx:9
 #: src/components/TopBar/ConnectMenu.jsx:19
-#: src/views/Stake/Stake.tsx:139
+#: src/views/Stake/Stake.tsx:142
 msgid "Connect Wallet"
 msgstr "Connect Wallet"
 
-#: src/views/Stake/Stake.tsx:239
+#: src/views/Stake/Stake.tsx:242
 msgid "Connect your wallet to stake EXOD"
 msgstr "Connect your wallet to stake EXOD"
 
@@ -263,7 +263,7 @@ msgstr "Connect your wallet to stake EXOD"
 msgid "Current"
 msgstr "Current"
 
-#: src/views/Stake/Stake.tsx:215
+#: src/views/Stake/Stake.tsx:218
 msgid "Current Index"
 msgstr "Current Index"
 
@@ -425,11 +425,11 @@ msgstr "Exodians"
 msgid "First time bonding"
 msgstr "First time bonding"
 
-#: src/views/Stake/Stake.tsx:273
+#: src/views/Stake/Stake.tsx:276
 msgid "First time staking"
 msgstr "First time staking"
 
-#: src/views/Stake/Stake.tsx:280
+#: src/views/Stake/Stake.tsx:283
 msgid "First time unstaking"
 msgstr "First time unstaking"
 
@@ -521,11 +521,11 @@ msgstr "Max You Can Buy"
 msgid "My grandpa's deck has no pathetic cards, Kaiba"
 msgstr "My grandpa's deck has no pathetic cards, Kaiba"
 
-#: src/views/Stake/Stake.tsx:442
+#: src/views/Stake/Stake.tsx:445
 msgid "Next Reward Amount"
 msgstr "Next Reward Amount"
 
-#: src/views/Stake/Stake.tsx:457
+#: src/views/Stake/Stake.tsx:460
 msgid "Next Reward Yield"
 msgstr "Next Reward Yield"
 
@@ -579,8 +579,8 @@ msgid "Pending..."
 msgstr "Pending..."
 
 #: src/views/Bond/BondPurchase.jsx:150
-#: src/views/Stake/Stake.tsx:275
-#: src/views/Stake/Stake.tsx:282
+#: src/views/Stake/Stake.tsx:278
+#: src/views/Stake/Stake.tsx:285
 msgid "Please approve Exodia to use your"
 msgstr "Please approve Exodia to use your"
 
@@ -597,8 +597,8 @@ msgstr "Please enter a valid value!"
 #: src/views/33Together/PoolDeposit.jsx:67
 #: src/views/33Together/PoolWithdraw.jsx:60
 #: src/views/Bond/BondPurchase.jsx:53
-#: src/views/Stake/Stake.tsx:108
-#: src/views/Stake/Stake.tsx:108
+#: src/views/Stake/Stake.tsx:111
+#: src/views/Stake/Stake.tsx:111
 msgid "Please enter a value!"
 msgstr "Please enter a value!"
 
@@ -648,7 +648,7 @@ msgstr "Purchased"
 msgid "ROI"
 msgstr "ROI"
 
-#: src/views/Stake/Stake.tsx:466
+#: src/views/Stake/Stake.tsx:469
 msgid "ROI (5-Day Rate)"
 msgstr "ROI (5-Day Rate)"
 
@@ -741,11 +741,11 @@ msgstr "Stake"
 #~ msgid "Stake on Crucible"
 #~ msgstr "Stake on Crucible"
 
-#: src/views/Stake/Stake.tsx:330
+#: src/views/Stake/Stake.tsx:333
 msgid "Stake {OHM_TICKER}"
 msgstr "Stake {OHM_TICKER}"
 
-#: src/views/Stake/Stake.tsx:416
+#: src/views/Stake/Stake.tsx:419
 msgid "Staked Balance"
 msgstr "Staked Balance"
 
@@ -789,7 +789,8 @@ msgstr "Supply (circulating/total)"
 #~ msgid "Swap into sOHM"
 #~ msgstr "Swap into sOHM"
 
-#: src/views/Calc/CalcChart.tsx:68
+#: src/components/Chart/PersonalExodChart.tsx:70
+#: src/views/Calc/CalcChart.tsx:62
 msgid "Switch to"
 msgstr "Switch to"
 
@@ -826,7 +827,7 @@ msgstr "Total Deposits"
 msgid "Total Sponsorship"
 msgstr "Total Sponsorship"
 
-#: src/views/Stake/Stake.tsx:193
+#: src/views/Stake/Stake.tsx:196
 #: src/views/TreasuryDashboard/treasuryData.ts:171
 msgid "Total Value Deposited"
 msgstr "Total Value Deposited"
@@ -855,7 +856,7 @@ msgstr "Transaction may revert if price changes by more than slippage %"
 msgid "Treasury Balance"
 msgstr "Treasury Balance"
 
-#: src/views/Stake/Stake.tsx:264
+#: src/views/Stake/Stake.tsx:267
 msgid "Unstake"
 msgstr "Unstake"
 
@@ -871,11 +872,11 @@ msgstr "Unstake"
 #~ msgid "Unstake OHM"
 #~ msgstr "Unstake OHM"
 
-#: src/views/Stake/Stake.tsx:371
+#: src/views/Stake/Stake.tsx:374
 msgid "Unstake {OHM_TICKER}"
 msgstr "Unstake {OHM_TICKER}"
 
-#: src/views/Stake/Stake.tsx:401
+#: src/views/Stake/Stake.tsx:404
 msgid "Unstaked Balance"
 msgstr "Unstaked Balance"
 
@@ -999,8 +1000,8 @@ msgstr "You can choose to withdraw the deposited fund at any time. By withdrawin
 #~ msgid "You cannot stake more than your OHM balance."
 #~ msgstr "You cannot stake more than your OHM balance."
 
-#: src/views/Stake/Stake.tsx:114
-#: src/views/Stake/Stake.tsx:114
+#: src/views/Stake/Stake.tsx:117
+#: src/views/Stake/Stake.tsx:117
 msgid "You cannot stake more than your {OHM_TICKER} balance."
 msgstr "You cannot stake more than your {OHM_TICKER} balance."
 
@@ -1009,8 +1010,8 @@ msgstr "You cannot stake more than your {OHM_TICKER} balance."
 #~ msgid "You cannot unstake more than your sOHM balance."
 #~ msgstr "You cannot unstake more than your sOHM balance."
 
-#: src/views/Stake/Stake.tsx:118
-#: src/views/Stake/Stake.tsx:118
+#: src/views/Stake/Stake.tsx:121
+#: src/views/Stake/Stake.tsx:121
 msgid "You cannot unstake more than your {sOHM_TICKER} balance."
 msgstr "You cannot unstake more than your {sOHM_TICKER} balance."
 
@@ -1046,10 +1047,12 @@ msgstr "Your odds"
 msgid "Your pool deposits"
 msgstr "Your pool deposits"
 
+#: src/components/Chart/PersonalExodChart.tsx:26
 #: src/views/Calc/CalcChart.tsx:25
 msgid "Your projected USD balance over time. Price increases/decreases by the same percentage each day to finally reach the target price."
 msgstr "Your projected USD balance over time. Price increases/decreases by the same percentage each day to finally reach the target price."
 
+#: src/components/Chart/PersonalExodChart.tsx:20
 #: src/views/Calc/CalcChart.tsx:19
 msgid "Your projected staked EXOD balance over time. You can use this to estimate the growth of your sEXOD balance."
 msgstr "Your projected staked EXOD balance over time. You can use this to estimate the growth of your sEXOD balance."
@@ -1090,7 +1093,7 @@ msgid "do_bond"
 msgstr "Bond"
 
 #. The action of staking (verb)
-#: src/views/Stake/Stake.tsx:258
+#: src/views/Stake/Stake.tsx:261
 msgid "do_stake"
 msgstr "Stake"
 
@@ -1098,17 +1101,21 @@ msgstr "Stake"
 msgid "for bonding"
 msgstr "for bonding"
 
-#: src/views/Stake/Stake.tsx:276
+#: src/views/Stake/Stake.tsx:279
 msgid "for staking"
 msgstr "for staking"
 
-#: src/views/Stake/Stake.tsx:283
+#: src/views/Stake/Stake.tsx:286
 msgid "for unstaking"
 msgstr "for unstaking"
 
 #: src/views/33Together/PoolPrize.jsx:147
 msgid "hrs"
 msgstr "hrs"
+
+#: src/components/Chart/PersonalExodChart.tsx:82
+msgid "if price remains stable"
+msgstr "if price remains stable"
 
 #: src/views/33Together/PoolPrize.jsx:154
 msgid "min"
@@ -1146,6 +1153,7 @@ msgstr "to next rebase"
 #~ msgid "{mode} over time"
 #~ msgstr "{mode} over time"
 
-#: src/views/Calc/CalcChart.tsx:73
+#: src/components/Chart/PersonalExodChart.tsx:76
+#: src/views/Calc/CalcChart.tsx:67
 msgid "{profits} after {calcDays} days"
 msgstr "{profits} after {calcDays} days"

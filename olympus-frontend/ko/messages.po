@@ -37,7 +37,7 @@ msgstr "3, 3 투게더"
 msgid "ADD TOKEN TO WALLET"
 msgstr "지갑에 토큰 추가"
 
-#: src/views/Stake/Stake.tsx:176
+#: src/views/Stake/Stake.tsx:179
 #: src/views/TreasuryDashboard/treasuryData.ts:175
 msgid "APY"
 msgstr "APY"
@@ -72,8 +72,8 @@ msgstr ""
 
 #: src/views/33Together/PoolDeposit.jsx:180
 #: src/views/Bond/BondPurchase.jsx:214
-#: src/views/Stake/Stake.tsx:348
-#: src/views/Stake/Stake.tsx:389
+#: src/views/Stake/Stake.tsx:351
+#: src/views/Stake/Stake.tsx:392
 msgid "Approve"
 msgstr "기능 승인"
 
@@ -225,11 +225,11 @@ msgstr "청구 가능한 보상"
 
 #: src/components/ConnectButton.jsx:9
 #: src/components/TopBar/ConnectMenu.jsx:19
-#: src/views/Stake/Stake.tsx:139
+#: src/views/Stake/Stake.tsx:142
 msgid "Connect Wallet"
 msgstr "지갑 연결"
 
-#: src/views/Stake/Stake.tsx:239
+#: src/views/Stake/Stake.tsx:242
 msgid "Connect your wallet to stake EXOD"
 msgstr "EXOD 스테이크를 위해 지갑 연결"
 
@@ -247,7 +247,7 @@ msgstr "EXOD 스테이크를 위해 지갑 연결"
 msgid "Current"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:215
+#: src/views/Stake/Stake.tsx:218
 msgid "Current Index"
 msgstr "현재 인덱스"
 
@@ -409,11 +409,11 @@ msgstr ""
 msgid "First time bonding"
 msgstr "첫 본딩"
 
-#: src/views/Stake/Stake.tsx:273
+#: src/views/Stake/Stake.tsx:276
 msgid "First time staking"
 msgstr "첫 스테이킹"
 
-#: src/views/Stake/Stake.tsx:280
+#: src/views/Stake/Stake.tsx:283
 msgid "First time unstaking"
 msgstr "첫 언스테이킹"
 
@@ -505,11 +505,11 @@ msgstr "구입 가능한 최대"
 msgid "My grandpa's deck has no pathetic cards, Kaiba"
 msgstr ""
 
-#: src/views/Stake/Stake.tsx:442
+#: src/views/Stake/Stake.tsx:445
 msgid "Next Reward Amount"
 msgstr "다음 보상 수량"
 
-#: src/views/Stake/Stake.tsx:457
+#: src/views/Stake/Stake.tsx:460
 msgid "Next Reward Yield"
 msgstr "다음 보상 이자"
 
@@ -563,8 +563,8 @@ msgid "Pending..."
 msgstr "계류중..."
 
 #: src/views/Bond/BondPurchase.jsx:150
-#: src/views/Stake/Stake.tsx:275
-#: src/views/Stake/Stake.tsx:282
+#: src/views/Stake/Stake.tsx:278
+#: src/views/Stake/Stake.tsx:285
 msgid "Please approve Exodia to use your"
 msgstr "Exodia를 승인해 주세요"
 
@@ -581,8 +581,8 @@ msgstr "유효한 값을 입력하세요"
 #: src/views/33Together/PoolDeposit.jsx:67
 #: src/views/33Together/PoolWithdraw.jsx:60
 #: src/views/Bond/BondPurchase.jsx:53
-#: src/views/Stake/Stake.tsx:108
-#: src/views/Stake/Stake.tsx:108
+#: src/views/Stake/Stake.tsx:111
+#: src/views/Stake/Stake.tsx:111
 msgid "Please enter a value!"
 msgstr "가치를 입력하세요!"
 
@@ -632,7 +632,7 @@ msgstr "구입량"
 msgid "ROI"
 msgstr "ROI(수익률)"
 
-#: src/views/Stake/Stake.tsx:466
+#: src/views/Stake/Stake.tsx:469
 msgid "ROI (5-Day Rate)"
 msgstr "ROI (5일 기준 수익)"
 
@@ -720,11 +720,11 @@ msgstr "스테이크"
 #~ msgid "Stake in Crucible"
 #~ msgstr "Crucible에 스테이크"
 
-#: src/views/Stake/Stake.tsx:330
+#: src/views/Stake/Stake.tsx:333
 msgid "Stake {OHM_TICKER}"
 msgstr "{OHM_TICKER} 스테이크"
 
-#: src/views/Stake/Stake.tsx:416
+#: src/views/Stake/Stake.tsx:419
 msgid "Staked Balance"
 msgstr "스테이크 된 잔고"
 
@@ -764,7 +764,8 @@ msgstr "공급량 (순환/총)"
 #~ msgid "Swap into sOHM"
 #~ msgstr ""
 
-#: src/views/Calc/CalcChart.tsx:68
+#: src/components/Chart/PersonalExodChart.tsx:70
+#: src/views/Calc/CalcChart.tsx:62
 msgid "Switch to"
 msgstr ""
 
@@ -797,7 +798,7 @@ msgstr "총 예치"
 msgid "Total Sponsorship"
 msgstr "총 스폰서십"
 
-#: src/views/Stake/Stake.tsx:193
+#: src/views/Stake/Stake.tsx:196
 #: src/views/TreasuryDashboard/treasuryData.ts:171
 msgid "Total Value Deposited"
 msgstr "예치된 총 가치"
@@ -822,7 +823,7 @@ msgstr "만약 가격이 슬리피지% 보다 높게 변할 경우 트랜젝션�
 msgid "Treasury Balance"
 msgstr "금고 잔고"
 
-#: src/views/Stake/Stake.tsx:264
+#: src/views/Stake/Stake.tsx:267
 msgid "Unstake"
 msgstr "언스테이크"
 
@@ -838,11 +839,11 @@ msgstr "언스테이크"
 #~ msgid "Unstake OHM"
 #~ msgstr "OHM 언스테이크"
 
-#: src/views/Stake/Stake.tsx:371
+#: src/views/Stake/Stake.tsx:374
 msgid "Unstake {OHM_TICKER}"
 msgstr "{OHM_TICKER} 언스테이킹"
 
-#: src/views/Stake/Stake.tsx:401
+#: src/views/Stake/Stake.tsx:404
 msgid "Unstaked Balance"
 msgstr "언스테이크 된 잔고"
 
@@ -954,8 +955,8 @@ msgstr "예치된 잔고를 언제든 출금할 수 있습니다. 잔고를 출�
 #~ msgid "You cannot stake more than your OHM balance."
 #~ msgstr "OHM 잔고 보다 더 많은 양을 스테이크 할 수 없습니다."
 
-#: src/views/Stake/Stake.tsx:114
-#: src/views/Stake/Stake.tsx:114
+#: src/views/Stake/Stake.tsx:117
+#: src/views/Stake/Stake.tsx:117
 msgid "You cannot stake more than your {OHM_TICKER} balance."
 msgstr "{OHM_TICKER} 잔고 보다 더 많은 양을 스테이크 할 수 없습니다."
 
@@ -964,8 +965,8 @@ msgstr "{OHM_TICKER} 잔고 보다 더 많은 양을 스테이크 할 수 없습
 #~ msgid "You cannot unstake more than your sOHM balance."
 #~ msgstr "sOHM 잔고 보다 더 많은 양을 언스테이크 할 수 없습니다."
 
-#: src/views/Stake/Stake.tsx:118
-#: src/views/Stake/Stake.tsx:118
+#: src/views/Stake/Stake.tsx:121
+#: src/views/Stake/Stake.tsx:121
 msgid "You cannot unstake more than your {sOHM_TICKER} balance."
 msgstr "{sOHM_TICKER} 잔고 보다 더 많은 양을 언스테이크 할 수 없습니다."
 
@@ -1001,10 +1002,12 @@ msgstr "당신의 배당율"
 msgid "Your pool deposits"
 msgstr "당신의 풀 예치"
 
+#: src/components/Chart/PersonalExodChart.tsx:26
 #: src/views/Calc/CalcChart.tsx:25
 msgid "Your projected USD balance over time. Price increases/decreases by the same percentage each day to finally reach the target price."
 msgstr ""
 
+#: src/components/Chart/PersonalExodChart.tsx:20
 #: src/views/Calc/CalcChart.tsx:19
 msgid "Your projected staked EXOD balance over time. You can use this to estimate the growth of your sEXOD balance."
 msgstr ""
@@ -1045,7 +1048,7 @@ msgid "do_bond"
 msgstr "본드"
 
 #. The action of staking (verb)
-#: src/views/Stake/Stake.tsx:258
+#: src/views/Stake/Stake.tsx:261
 msgid "do_stake"
 msgstr "스테이크"
 
@@ -1053,17 +1056,21 @@ msgstr "스테이크"
 msgid "for bonding"
 msgstr "본딩을 위해"
 
-#: src/views/Stake/Stake.tsx:276
+#: src/views/Stake/Stake.tsx:279
 msgid "for staking"
 msgstr "스테이킹을 위해"
 
-#: src/views/Stake/Stake.tsx:283
+#: src/views/Stake/Stake.tsx:286
 msgid "for unstaking"
 msgstr "언스테이킹을 위해"
 
 #: src/views/33Together/PoolPrize.jsx:147
 msgid "hrs"
 msgstr "시간"
+
+#: src/components/Chart/PersonalExodChart.tsx:82
+msgid "if price remains stable"
+msgstr ""
 
 #: src/views/33Together/PoolPrize.jsx:154
 msgid "min"
@@ -1093,6 +1100,7 @@ msgstr ""
 msgid "to next rebase"
 msgstr "다음 리베이스 까지"
 
-#: src/views/Calc/CalcChart.tsx:73
+#: src/components/Chart/PersonalExodChart.tsx:76
+#: src/views/Calc/CalcChart.tsx:67
 msgid "{profits} after {calcDays} days"
 msgstr ""
